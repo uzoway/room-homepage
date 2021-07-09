@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!-- Favicon --> 
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet"> <!-- Link to website font -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+  <title>Room homepage</title>
+</head>
+<body>
+
+  <!-- Preloader for website -->
+  <div class="loader">
+    <div id="round" class="round1">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  
+  <!-- Hero starts here -->
+  <section class="hero">
+    <div class="hero-row">
+      <div class="hero-left-col" id="gallery">
+        <nav>
+          <img src="images/icon-hamburger.svg" alt="hamburger menu" class="toggle-button" id="openBtn">
+          <a href="#"><img src="images/logo.svg" alt="room logo"></a>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="slider-controller">
+          <img src="images/icon-angle-left.svg" alt="left angle arrow" class="left-button" id="leftBtn">
+          <img src="images/icon-angle-right.svg" alt="right angle arrow" class="right-button" id="rightBtn">
+        </div>
+      </div>
+       
+      <article class="hero-article">
+        <div class="hero-article-text">
+          <h1 id="heading">Discover innovative ways to decorate</h1>
+          <p id="paragraph">
+            We provide unmatched quality, comfort, and style for property owners across the country. 
+            Our experts combine form and function in bringing your vision to life. Create a room in your 
+            own style with our collection and make your property a reflection of you and what you love.
+          </p>
+          <a href="#">Shop now <img src="images/icon-arrow.svg" alt="arrow icon"></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Mobile Navigation starts here -->
+  <div class="mobile-nav" id="mobileNav">
+    <nav>
+      <img src="images/icon-close.svg" alt="close icon" id="closeBtn">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- About section starts here -->
+  <section class="about">
+    <div class="about-left-image">
+      <img src="images/image-about-dark.jpg" alt="dark furniture">
+    </div>
+
+    <article class="about-article">
+      <h2>About our furniture</h2>
+      <p>
+        Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+    </article>
+
+    <div class="about-right-image">
+      <img src="images/image-about-light.jpg" alt="light furniture">
+    </div>
+  </section>
+
+  <!-- Author -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/uzochukwuokafor/" target="_blank">Uzochukwu</a>.
+  </div>
+
+  <script src="index.js"></script> <!-- Link to JS file -->
+</body>
+</html>
