@@ -147,7 +147,7 @@ leftBtn.onclick = function(){
 
 ### Useful resources
 
-- [Adding Preloader](https://www.youtube.com/watch?v=BwhTKJFpKSw&t=78s) - This video fromBrad Traversy youtube channel helped me understand the concept of adding a preloader to a website using HTML, CSS and Js
+- [Adding Preloader](https://www.youtube.com/watch?v=BwhTKJFpKSw&t=78s) - This video from Brad Traversy youtube channel helped me understand the concept of adding a preloader to a website using HTML, CSS and Js
 - [Checking for device screen size using Js](https://responsivedesign.is/develop/javascript/conditionally-load-javascript-based-on-media-query/) - This is an amazing article which helped me understand how to check for device screen size using JavaScript. I'd recommend it to anyone still learning this concept.
 
 ## Author
