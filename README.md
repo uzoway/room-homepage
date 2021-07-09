@@ -32,8 +32,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://your-live-site-url.com)
+- [Live site URL](https://room-nu.vercel.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/room-homepage-built-using-vanilla-js-html5-and-css3-PUVlbTjUU)
+
 
 ## My process
 
